@@ -1,0 +1,25 @@
+.locationInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.locationInput input{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    height: 32px;
+    width: 300px;
+}
+
+.locationInput input::placeholder{
+    box-sizing: border-box;
+    padding: 15px;
+    font-weight: 700;
+    color: #919191;
+}
+
+.destination{
+    padding: 0;
+}
